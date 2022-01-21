@@ -154,5 +154,5 @@
             </LinearLayout>
         </LinearLayout>
 
-    </com.google.android.gms.ads.formats.UnifiedNativeAdView>
+    </com.google.android.gms.ads.nativead.NativeAdView>
 </merge>
