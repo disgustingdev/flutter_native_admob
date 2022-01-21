@@ -89,7 +89,7 @@ class NativeAdView @JvmOverloads constructor(
     adView.advertiserView = adAdvertiser
   }
 
-  fun setNativeAd(nativeAd: UnifiedNativeAd?) {
+  fun setNativeAd(nativeAd: com.google.android.gms.ads.nativead.NativeAdView?) {
     if (nativeAd == null) return
 
     // Some assets are guaranteed to be in every UnifiedNativeAd.
