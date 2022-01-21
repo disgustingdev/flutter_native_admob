@@ -11,7 +11,7 @@ import android.view.ViewGroup
 import android.widget.*
 import com.google.android.gms.ads.formats.MediaView
 import com.google.android.gms.ads.formats.UnifiedNativeAd
-import com.google.android.gms.ads.formats.UnifiedNativeAdView
+import com.google.android.gms.ads.nativead.NativeAdView
 
 enum class NativeAdmobType {
   full, banner
@@ -30,7 +30,7 @@ class NativeAdView @JvmOverloads constructor(
       updateOptions()
     }
 
-  private val adView: UnifiedNativeAdView
+  private val adView: NativeAdView
 
   private val ratingBar: RatingBar
 
