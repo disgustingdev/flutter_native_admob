@@ -9,7 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import com.google.android.gms.ads.formats.MediaView
+import com.google.android.gms.ads.nativead.MediaView
 import com.google.android.gms.ads.formats.UnifiedNativeAd
 import com.google.android.gms.ads.nativead.NativeAdView
 
